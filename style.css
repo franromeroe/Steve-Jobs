@@ -1,0 +1,52 @@
+
+/* agregamos tipografia */
+body {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    background-color: rgb(192, 192, 192);
+}
+/*Centramos el titulo el subtitulo y el footer que esta abajo de todos*/
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+/* esto es para la descripcion de abajo de la imagen, lo ponemos a la derecha*/
+#img-caption {
+    text-align: right;
+}
+
+/*ahora centramos la lista un error que tuve es que puse el id de main, y no centraba la lista, luego puse el id especifico de la lista y centro  */
+#tribute-info {
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+    line-height: 2;
+        
+}
+
+/*definimos tamaño de la imagen*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* definimos los limites de la lista, su margen y lo maximo que se puede extender*/
+ul {
+    max-width: 800px;
+    margin: 50px;
+    background-color: rgb(150, 150, 150);
+    
+}
+
+/* vamos a agregar una frase de steve y centrar*/
+
+#quote {
+    font-size: 30px;
+    text-align: center;
+
+}
